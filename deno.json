@@ -37,6 +37,5 @@
     "jsx": "react-jsx",
     "jsxImportSource": "preact"
   },
-  "nodeModulesDir": true,
-  "unstable": ["cron"]
+  "nodeModulesDir": "auto"
 }
