@@ -24,6 +24,8 @@
   ],
   "imports": {
     "$fresh/": "https://deno.land/x/fresh@1.6.8/",
+    "@hono/swagger-ui": "npm:@hono/swagger-ui@^0.5.0",
+    "@hono/zod-openapi": "npm:@hono/zod-openapi@^0.18.3",
     "hono": "npm:hono@^4.6.15",
     "preact": "https://esm.sh/preact@10.19.6",
     "preact/": "https://esm.sh/preact@10.19.6/",
@@ -32,7 +34,8 @@
     "tailwindcss": "npm:tailwindcss@3.4.1",
     "tailwindcss/": "npm:/tailwindcss@3.4.1/",
     "tailwindcss/plugin": "npm:/tailwindcss@3.4.1/plugin.js",
-    "$std/": "https://deno.land/std@0.216.0/"
+    "$std/": "https://deno.land/std@0.216.0/",
+    "zod": "npm:zod@^3.24.1"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
